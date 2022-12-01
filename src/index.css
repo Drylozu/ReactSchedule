@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+[data-theme="dark"] body {
+    background-color: #101010;
+    color: #dddddd;
+}
+
+.main {
+    margin: 0 13vh;
+    margin-top: 8vh;
+}
+
+.main > .now {
+    margin-left: 5vh;
+    margin-bottom: 5vh;
+}
+
+.main > .now > .name {
+    margin-bottom: 2vh;
+}
+
+.now > ul > li {
+    margin-bottom: 1.5vh;
+}
+
+.now .link {
+    font-weight: bold;
+    color: #0a59b3;
+}
+
+.now .link:visited {
+    color: #0a59b3;
+}
+
+.hour {
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 1vh;
+    font-size: 18px;
+    color: #a0a0a0;
+    font-weight: 600;
+    position: absolute;
+}
+
+[data-theme="dark"] .hour {
+    color: #5e5e5e;
+}
+
+.theme {
+    top: 0;
+    left: 0;
+    width: 40px;
+    display: flex;
+    height: 100px;
+    cursor: pointer;
+    margin-left: 3vh;
+    position: absolute;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #b30a0a;
+    transform: translateY(-35%);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0 100%);
+}
+
+.theme:hover {
+    transform: translateY(-25%);
+}
+
+.theme > p {
+    margin-top: 1.5vh;
+    padding-bottom: 2.5vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}

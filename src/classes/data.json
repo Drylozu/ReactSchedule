@@ -1,0 +1,79 @@
+{
+    "lessons": {
+        "1": {
+            "name": "Computer Science",
+            "url": "url"
+        },
+        "2": {
+            "name": "Maths",
+            "url": "url"
+        },
+        "3": {
+            "name": "Religion",
+            "url": "url"
+        },
+        "4": {
+            "name": "Technical Drawing",
+            "url": "url"
+        },
+        "5": {
+            "name": "Art",
+            "url": "url"
+        },
+        "6": {
+            "name": "Ethics",
+            "url": "url"
+        },
+        "7": {
+            "name": "Biology",
+            "url": "url"
+        },
+        "8": {
+            "name": "English Language",
+            "url": "url"
+        },
+        "9": {
+            "name": "Spanish Language",
+            "url": "url"
+        },
+        "10": {
+            "name": "Physical Education",
+            "url": "url"
+        },
+        "11": {
+            "name": "Physics/Chemistry",
+            "url": "url"
+        },
+        "12": {
+            "name": "Social Science",
+            "url": "url"
+        }
+    },
+    "schedule": [
+        [],
+        [
+            "1", "1", "7", "7", null, "11"
+        ],
+        [
+            "2", "2", "4", "4", null, null
+        ],
+        [
+            "9", "9", "2", null, "12", "12"
+        ],
+        [
+            "6", "5", "5", "3", null, null
+        ],
+        [
+            "10", "10", "8", "8", null, null
+        ],
+        []
+    ],
+    "hours": [
+        ["6:30", "7:15"],
+        ["7:16", "8:00"],
+        ["8:01", "8:45"],
+        ["8:46", "9:30"],
+        ["10:00", "10:45"],
+        ["10:46", "11:30"]
+    ]
+}
